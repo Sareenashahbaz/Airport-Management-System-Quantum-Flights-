@@ -8,16 +8,17 @@ A web-based Airport Management System designed to manage flights, passengers, an
 
 airport-ams/
 │
+├── index.html
 ├── main.jsx
-├── index.html 
+├── README.md
 ├── src/
-│ ├── index.css
-│ └── App.jsx
-| ├── components/
-| ├── pages/ 
-| ├── context/ 
-| ├── assets/ 
-└── README.md 
+│   ├── index.css
+│   ├── App.jsx
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   └── assets/
+
 
 The structure keeps your files organized for scalability and easier maintenance.
 
@@ -72,6 +73,7 @@ const FlightContext = React.createContext();
 // Consuming context
 const { flights, setFlights } = useContext(FlightContext);
 ```
+
 ---
 ## Chosen Styling Framework
 
@@ -84,6 +86,7 @@ This project uses Bootstrap 5 for styling:
  • Components like buttons, cards, and modals for quick UI development
 
  • Tailwind could be used alternatively, but Bootstrap was chosen for faster prototyping and simplicity.
+ 
 ---
 
 ## Screenshots
@@ -91,7 +94,9 @@ This project uses Bootstrap 5 for styling:
 ![Dashboard](<img width="1338" height="673" alt="Dashboard" src="https://github.com/user-attachments/assets/bee67cc8-c030-4139-ae8b-92913e14161a" />)
 ![Flights](<img width="1301" height="575" alt="Flights" src="https://github.com/user-attachments/assets/49f910f9-0829-4127-9915-8e7d0ae7f43e" />)
 ![Users](<img width="1276" height="633" alt="Users" src="https://github.com/user-attachments/assets/5756dada-4b95-4403-92d5-d4f9474fff5e" />)
+
 ---
+
 ## How to Push Your Local Project to GitHub
 
 ```bash
@@ -102,10 +107,13 @@ git remote add origin https://github.com/yourusername/Airport-Management-System-
 git push -u origin main
 ```
 Replace yourusername with your GitHub username. Use main or master based on your branch.
+
 ---
 
 ##Author
+
 **Sareena Shahbaz**
+
 ---
 
 
