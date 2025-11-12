@@ -6,18 +6,21 @@ A web-based Airport Management System designed to manage flights, passengers, an
 
 ##  Folder Structure
 
+``` bash
 airport-ams/
 │
 ├── index.html
 ├── main.jsx
 ├── README.md
 ├── src/
-│   ├── index.css
-│   ├── App.jsx
-│   ├── components/
-│   ├── pages/
-│   ├── context/
-│   └── assets/
+│ ├── index.css
+│ ├── App.jsx
+│ ├── components/
+│ ├── pages/
+│ ├── context/
+│ └── assets/
+
+```
 
 
 The structure keeps your files organized for scalability and easier maintenance.
@@ -91,9 +94,10 @@ This project uses Bootstrap 5 for styling:
 
 ## Screenshots
 
-![Dashboard](<img width="1338" height="673" alt="Dashboard" src="https://github.com/user-attachments/assets/bee67cc8-c030-4139-ae8b-92913e14161a" />)
-![Flights](<img width="1301" height="575" alt="Flights" src="https://github.com/user-attachments/assets/49f910f9-0829-4127-9915-8e7d0ae7f43e" />)
-![Users](<img width="1276" height="633" alt="Users" src="https://github.com/user-attachments/assets/5756dada-4b95-4403-92d5-d4f9474fff5e" />)
+<img src="https://github.com/user-attachments/assets/bee67cc8-c030-4139-ae8b-92913e14161a" width="800" />
+<img src="https://github.com/user-attachments/assets/49f910f9-0829-4127-9915-8e7d0ae7f43e" width="800" />
+<img src="https://github.com/user-attachments/assets/5756dada-4b95-4403-92d5-d4f9474fff5e" width="800" />
+
 
 ---
 
@@ -110,7 +114,7 @@ Replace yourusername with your GitHub username. Use main or master based on your
 
 ---
 
-##Author
+## Author
 
 **Sareena Shahbaz**
 
