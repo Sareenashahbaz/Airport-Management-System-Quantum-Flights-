@@ -1,0 +1,82 @@
+/* src/index.css */
+
+/* Global body styles */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* light gray background */
+}
+
+/* Headers */
+h3,
+h5 {
+  color: #343a40; /* dark text */
+}
+
+/* Table styling */
+.table {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+/* Card styling */
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn {
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+/* Forms */
+.form-control {
+  border-radius: 0.25rem;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 0.5rem;
+}
+
+/* Responsive table wrapper */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #0d6efd;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto;
+}
+
+/* Dashboard cards spacing */
+.dashboard .card {
+  min-height: 120px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .d-flex.flex-wrap.gap-1 {
+    flex-direction: column;
+  }
+  .btn.w-100.w-sm-auto {
+    width: 100% !important;
+  }
+}
