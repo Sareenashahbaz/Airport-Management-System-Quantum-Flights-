@@ -1,3 +1,4 @@
+// src/main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -13,7 +14,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <AuthProvider>
       <UserProvider>
         <TicketProvider>
-          <App />
+          <div className="app-root">
+            {" "}
+            {/* <- NEW */}
+            <App />
+          </div>
         </TicketProvider>
       </UserProvider>
     </AuthProvider>

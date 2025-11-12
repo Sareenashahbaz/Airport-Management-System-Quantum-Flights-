@@ -10,7 +10,9 @@ export default function Splash() {
   return (
     <div className="vh-100 d-flex align-items-center justify-content-center bg-primary text-white">
       <div className="text-center">
-        <h1 className="display-5">Airport AMS</h1>
+        <h1 className="display-5">
+          Airport Management System of Quantum Flights
+        </h1>
         <p className="lead">Manage users, flights & bookings</p>
       </div>
     </div>

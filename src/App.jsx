@@ -8,6 +8,18 @@ import Users from "./pages/Users";
 import Tickets from "./pages/Tickets";
 import Bookings from "./pages/Bookings";
 import PrivateRoute from "./components/PrivateRoute";
+import Layout from "./components/Layout";
+<Route
+  path="/dashboard"
+  element={
+    <PrivateRoute>
+      <Layout>
+        <Dashboard />
+      </Layout>
+    </PrivateRoute>
+  }
+/>;
+// same for other protected routes
 
 function App() {
   return (

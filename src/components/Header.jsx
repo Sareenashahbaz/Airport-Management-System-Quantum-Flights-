@@ -17,7 +17,7 @@ export default function Header() {
     <Navbar bg="primary" variant="dark" expand="lg" className="mb-4">
       <Container>
         <Navbar.Brand as={Link} to="/dashboard">
-          Airport Manager
+          Airport Manager of Quantum Flights
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
